@@ -1,0 +1,18 @@
+.converter-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  input {
+    display: flex;
+    margin: {
+      top: 5px;
+      bottom: 5px;
+    }
+    &.invalid {
+      color: red;
+      background: {
+        color: rgba(255, 0, 0, 0.233);
+      }
+    }
+  }
+}
